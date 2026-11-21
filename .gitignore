@@ -1,0 +1,16 @@
+# Bỏ qua toàn bộ dữ liệu sinh ra và file nén
+data/
+output/
+scratch/
+dev-data/
+dev-answer/
+*.csv
+*.parquet
+*.zip
+
+# Bỏ qua môi trường ảo Python và file rác hệ thống
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
